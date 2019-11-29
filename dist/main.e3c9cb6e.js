@@ -123,8 +123,8 @@ var $lastLi = $('li.last');
 var data = localStorage.getItem('data');
 var dataObject = JSON.parse(data);
 var hashMap = dataObject || [{
-  logo: 'A',
-  url: 'https://www.acfun.cn'
+  logo: 'B',
+  url: 'https://www.bilibili.com'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -177,4 +177,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.53891677.js.map
+//# sourceMappingURL=main.e3c9cb6e.js.map

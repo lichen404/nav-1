@@ -3,8 +3,8 @@ const $lastLi = $('li.last')
 const data = localStorage.getItem('data')
 const dataObject = JSON.parse(data)
 const hashMap = dataObject || [{
-    logo: 'A',
-    url: 'https://www.acfun.cn'
+    logo: 'B',
+    url: 'https://www.bilibili.com'
 }]
 
 const simplifyUrl = (url) => {

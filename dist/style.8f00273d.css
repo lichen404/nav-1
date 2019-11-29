@@ -29,7 +29,11 @@ img {
 }
 
 body {
-    background: #eee;
+    background-image: url("background.84674bc8.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 1px;
+
 }
 
 .globalHeader {
@@ -61,6 +65,7 @@ body {
     padding: 0 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+
 }
 
 .searchForm>button {
@@ -68,8 +73,9 @@ body {
     padding: 0 28px;
     border: none;
     color: white;
-    background: #0282B9;
+    background: #8fd0ec;
     border-radius: 4px;
+    cursor: pointer;
 
 }
 
@@ -188,4 +194,4 @@ body {
 
 }
 
-/*# sourceMappingURL=style.7fe9d4b7.css.map */
+/*# sourceMappingURL=style.8f00273d.css.map */
