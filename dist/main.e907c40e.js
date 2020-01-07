@@ -123,8 +123,20 @@ var $lastLi = $('li.last');
 var data = localStorage.getItem('data');
 var dataObject = JSON.parse(data);
 var hashMap = dataObject || [{
+  logo: 'L',
+  url: 'https://www.liaoxuefeng.com'
+}, {
+  logo: 'G',
+  url: 'https://www.google.com'
+}, {
   logo: 'B',
-  url: 'https://www.bilibili.com'
+  url: 'https://www.baidu.com'
+}, {
+  logo: 'G',
+  url: 'https://www.github.com'
+}, {
+  logo: 'W',
+  url: 'https://www.weibo.com'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -180,4 +192,4 @@ $('.searchForm').on('keypress', function (e) {
   e.stopPropagation();
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.27e1b5a5.js.map
+//# sourceMappingURL=main.e907c40e.js.map

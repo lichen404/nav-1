@@ -3,8 +3,20 @@ const $lastLi = $('li.last')
 const data = localStorage.getItem('data')
 const dataObject = JSON.parse(data)
 const hashMap = dataObject || [{
+    logo: 'L',
+    url: 'https://www.liaoxuefeng.com'
+}, {
+    logo: 'G',
+    url: 'https://www.google.com'
+}, {
     logo: 'B',
-    url: 'https://www.bilibili.com'
+    url: 'https://www.baidu.com'
+}, {
+    logo: 'G',
+    url: 'https://www.github.com'
+}, {
+    logo: 'W',
+    url: 'https://www.weibo.com'
 }]
 
 const simplifyUrl = (url) => {
@@ -63,6 +75,7 @@ window.onbeforeunload = () => {
     const string = JSON.stringify(hashMap)
     localStorage.setItem('data', string)
 }
+
 
 $(document).on('keypress', (e) => {
     const {

@@ -186,7 +186,7 @@ body {
         justify-content: flex-start;
     }
 
-    .siteList>li {
+    .siteList li {
         margin-right: 25px;
     }
 
