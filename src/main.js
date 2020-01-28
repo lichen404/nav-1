@@ -48,7 +48,7 @@ const render = () => {
         const $li = $(` <li>
      
             <div class="site">
-                <div class="logo"><img src="${ 'https://www.'+ simplifyUrl(node.url) + '/favicon.ico'}" alt="${node.logo}"  onerror= "this.src = '/default.6dc465dc.png';this.onerror=null"></img>  </div>
+                <div class="logo"><img src="${ 'https://www.'+ simplifyUrl(node.url) + '/favicon.ico'}" alt="${node.logo}"  onerror= "this.src = './default.6c4f69e4.png';this.onerror=null"></img>  </div>
                 <div class="link">${simplifyUrl(node.url)}</div>
                 <div class="close">
                     <svg class="icon">
