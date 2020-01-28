@@ -43,6 +43,7 @@ $('.addButton').on('click', () => {
 
 const render = () => {
     $siteList.find('li:not(.last)').remove()
+    $siteList.find('a').remove()
     hashMap.forEach((node, index) => {
         const $li = $(` <li>
      
