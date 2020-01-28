@@ -161,7 +161,7 @@ var render = function render() {
   $siteList.find('li:not(.last)').remove();
   $siteList.find('a').remove();
   hashMap.forEach(function (node, index) {
-    var $li = $(" <li>\n     \n            <div class=\"site\">\n                <div class=\"logo\"><img src=\"".concat('https://www.' + simplifyUrl(node.url) + '/favicon.ico', "\" alt=\"").concat(node.logo, "\"  onerror= \"this.src = '/default.6dc465dc.png';this.onerror=null\"></img>  </div>\n                <div class=\"link\">").concat(simplifyUrl(node.url), "</div>\n                <div class=\"close\">\n                    <svg class=\"icon\">\n                    <use xlink:href=\"#icon-close\"></use>\n                    </svg>\n                </div>\n            </div>\n        \n    </li>")).insertBefore($lastLi);
+    var $li = $(" <li>\n     \n            <div class=\"site\">\n                <div class=\"logo\"><img src=\"".concat('https://www.' + simplifyUrl(node.url) + '/favicon.ico', "\" alt=\"").concat(node.logo, "\"  onerror= \"this.src = './default.6c4f69e4.png';this.onerror=null\"></img>  </div>\n                <div class=\"link\">").concat(simplifyUrl(node.url), "</div>\n                <div class=\"close\">\n                    <svg class=\"icon\">\n                    <use xlink:href=\"#icon-close\"></use>\n                    </svg>\n                </div>\n            </div>\n        \n    </li>")).insertBefore($lastLi);
     $li.on('click', function () {
       window.open(node.url);
     });
@@ -193,4 +193,4 @@ $('.searchForm').on('keypress', function (e) {
   e.stopPropagation();
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.5e30500c.js.map
+//# sourceMappingURL=main.c150961c.js.map
